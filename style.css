@@ -10,17 +10,18 @@ body {
 
 .main {
     height: 100%;
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: row;
 }
 
 .left {
-    width: 30%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    padding: 50px 0;
+    position: relative;
 }
 
 .div-img {
@@ -36,15 +37,17 @@ body {
 }
 
 .div-info {
+    margin-top: 10px;
     height: 70%;
 }
 
-.div-info h1 {
+.div-info h2 {
     text-align: center;
     color: #006699;
+    margin-top: 10px;
 }
 
 .right {
-    width: 70%;
-    padding-left: 30px;
+    width: auto;
+    /* padding: 60px 0 0 60px; */
 }
